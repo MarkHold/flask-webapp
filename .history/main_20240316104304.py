@@ -4,5 +4,5 @@ app = create_app()
 
 # The if __name__ == '__main__': block is used to check if the script is being run directly,
 if __name__ == '__main__':
-   # debug=True makes the server restart after everytime you save a change in the code.
+   # debug=True makes the server restart after everytime you save
     app.run(debug=True)
